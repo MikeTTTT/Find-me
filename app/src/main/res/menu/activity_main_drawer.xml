@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Location Tracker"
+            android:icon="@drawable/icons8_map_pinpoint"
+            android:id="@+id/trackLocation"/>
+        <item
+           android:id="@+id/fragment_first"
+            android:title="First fragment" />
+        <item
+            android:id="@+id/fragment_second"
+            android:title="Second fragment" />
+
+    </group>
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"/>
+
+        </menu>
+
+    </item>
+
+</menu>
